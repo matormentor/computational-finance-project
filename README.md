@@ -1,6 +1,6 @@
 # computational-finance-2022-2-project
 
-**January 2023**
+**2023**
 
 The project consists of the improvements of a Monte-Carlo simulation of an Euler-scheme discretization of a
 Discrete Term Structure Model (LIBOR Market Model) and the investigation of properties of interest rate products
@@ -8,8 +8,9 @@ using this model.
 
 
 ## Project description
+Found in the project description [pdf](Lecture%202022.2%20Project%20-%20Discrete%20Term%20Structure%20Simulation%20and%20IR%20Product%20Valuation%20V0_7.pdf)
 
-The current version of the project description can be found in the lecture's Moodle's announcements section.
+Link to the Powerpoint [Presentation](ProjectPresentation.pptx)
 
 
 ## Importing as Maven project
@@ -20,10 +21,6 @@ The project comes with a pre-configured Maven pom.xml file referencing finmath-l
 
 
 ## Notes
-
-### Data
-
-You find the data for the calibration exercise in the class `LectureProjectData`. It is part of this project.
 
 ### Unit Tests
 
@@ -47,15 +44,3 @@ mvn checkstyle:check
 (run from the project directory).
 
 Checkstyle will report style issues of you code. If you like to clean up the formatting, you may use *Source -> Clean up...* in Eclipse.
-
-
-## Working in Eclipse
-
-Import this git repository into Eclipse and start working.
-
-- Click on the link to your repository (the link starts with qntlb/computational-finance… )
-- Click on “Clone or download” and copy the URL to your clipboard.
-- Go to Eclipse and select File -> Import -> Git -> Projects from Git.
-- Select “Clone URI” and paste the GitHub URL from step 2.
-- Select “master”, then Next -> Next
-- In the Wizard for Project Import select “Import existing Eclipse projects”, then Next -> Finish
